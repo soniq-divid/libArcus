@@ -19,7 +19,8 @@
 #ifndef ARCUS_ERROR_H
 #define ARCUS_ERROR_H
 
-#include "Arcus/Types.h"
+#include "ArcusExport.h"
+#include "Types.h"
 
 namespace Arcus
 {
@@ -47,7 +48,7 @@ namespace Arcus
     /**
      * A class representing an error with an error code and an error message.
      */
-    class Error
+    class ARCUS_EXPORT Error
     {
     public:
         /**
@@ -102,6 +103,6 @@ namespace Arcus
 }
 
 // Output the error to a stream.
-std::ostream& operator<<(std::ostream& stream, const Arcus::Error& error);
+ARCUS_EXPORT std::ostream& operator<<(std::ostream& stream, const Arcus::Error& error);
 
 #endif //ARCUS_ERROR_H

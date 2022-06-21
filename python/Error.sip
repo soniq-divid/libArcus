@@ -37,7 +37,7 @@ enum class ErrorCode
 class Error
 {
     %TypeHeaderCode
-    #include "Arcus/Error.h"
+    #include "Error.h"
     %End
 
 public:

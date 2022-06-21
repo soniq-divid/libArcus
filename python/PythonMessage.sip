@@ -19,7 +19,7 @@
 class PythonMessage
 {
     %TypeHeaderCode
-    #include "pyArcus/PythonMessage.h"
+    #include "PythonMessage.h"
     %End
 
 public:

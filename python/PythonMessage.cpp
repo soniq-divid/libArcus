@@ -16,7 +16,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "pyArcus/PythonMessage.h"
+#include "PythonMessage.h"
 
 #include <Python.h>
 

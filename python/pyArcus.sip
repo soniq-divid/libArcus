@@ -30,7 +30,7 @@ using namespace Arcus;
 class Socket
 {
     %TypeHeaderCode
-    #include "Arcus/Socket.h"
+    #include "Socket.h"
     %End
 
 public:

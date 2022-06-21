@@ -16,7 +16,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "Arcus/Socket.h"
+#include "Socket.h"
 #include "Socket_p.h"
 
 #include <algorithm>
